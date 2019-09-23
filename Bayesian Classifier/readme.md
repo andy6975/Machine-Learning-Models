@@ -1,2 +1,0 @@
-# Bayes Classifier
-
