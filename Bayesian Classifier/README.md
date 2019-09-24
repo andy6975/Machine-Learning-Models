@@ -13,9 +13,20 @@ Bayesian Classifer is a simple and yet a very powerful algorithm. From classifyi
 
 We calculate ```aposteriori``` for each class for a given data point. The one having maximum is considered as the class of that data point.
 
+There are four cases of Bayesian Classifier depending on the type of data:
+
+* ```Case_1:``` Each class of the data has same various.
+* ```Case_2:``` Each class of the data has same covariance matrix.
+* ```Case_3:``` Each class has different covariance matrices but are diagonal.
+* ```Case_4:``` Each class has arbitrarily different covariance matrix.
+
+Although it depends on the data, which case it follows and what types of decision boundaries would the classifier give for it. But we will apply each case to each dataset to see the difference between each case, to study and understand how the classifier works in a better and comprehensive way, to visualize the decision boundaries obtained in each case and to draw insightful inferences from the results. Shall we begin?!
 
 ## Application of Bayesian Classifier on different datasets:
 
-### Data 1:
+### Data_1:
+
+#### First, let's understand our data and visualize its parameters and features using different metrics.
 
 ![](./images/Dataset_Train.png)
+
