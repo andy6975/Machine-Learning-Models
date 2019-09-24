@@ -6,4 +6,4 @@ Bayesian Classifer is a simple and yet a very powerful algorithm. From classifyi
 
 ![](./images/Bayes.jpg)
 
-* The left hand side term is called ~a-posteriori~
+* The left hand side term is called ```a-posteriori```
