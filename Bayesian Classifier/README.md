@@ -18,4 +18,4 @@ We calculate ```aposteriori``` for each class for a given data point. The one ha
 
 ### Data 1:
 
-![](./Dataset_Train.png)
+![](./images/Dataset_Train.png)
