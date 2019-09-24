@@ -5,3 +5,5 @@ Bayesian Classifer is a simple and yet a very powerful algorithm. From classifyi
 ## Just a little bit of theory before we dive into the mud!
 
 ![](./images/Bayes.jpg)
+
+* The left hand side term is called ~a-posteriori~
