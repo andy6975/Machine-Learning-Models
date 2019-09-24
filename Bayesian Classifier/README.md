@@ -6,4 +6,7 @@ Bayesian Classifer is a simple and yet a very powerful algorithm. From classifyi
 
 ![](./images/Bayes.jpg)
 
-* The left hand side term is called ```a-posteriori```
+* The left hand side term is called ```aposteriori```, it denotes **the probability of class being w (omega) given an input vector x (bar)**. The class corresponding to its maximum is the assigned class for the data point x (bar).
+* The first term in numerator of right hand side is called ```likelihood```, means **it is a function of parameters within the parameter space that describes the probability of obtaining the observed data** and is data dependent. This is excatly what we assume to be following Gaussian Distribution.
+* The second term in numerator of right hand side is called ```priori```, equates **the probability of class w out of all the classes** and is also data dependent. If it is close to 0 or 1 then all the other terms are useless.
+* The denominator on the right hand side is called ```evidence```, it can be viewed as merely a scale factor that guarantees that the ```aposteriori``` probabilities sum to one, as all good probabilities must.
