@@ -28,7 +28,7 @@ Although it depends on the data, which case it follows and what types of decisio
 
 #### First, let's understand our data and visualize its parameters and features using different metrics.
 
-* Visualizing the dataset.
+* **Visualizing the dataset.**
 
 ![](./images/Dataset_1/Dataset_Train.png)
 
@@ -42,7 +42,7 @@ The following observations can be made for this dataset:
 
 We can cross-verify our deductions using the metrics given below.
 
-* Distplots for each feature of each class:
+* **Distplots for each feature of each class:**
 
 ![](./images/Dataset_1/Displot_X_Class_1.png)
 ![](./images/Dataset_1/Displot_Y_Class_1.png)
@@ -53,7 +53,7 @@ We can cross-verify our deductions using the metrics given below.
 
 - Looks like the class features does follow Gaussian Distribution. Let's see if the classes does the same too?
 
-* Distribution of each class of the dataset.
+* **Distribution of each class of the dataset.**
 
 ![](./images/Dataset_1/PD_Class_1.png)
 ![](./images/Dataset_1/PD_Class_2.png)
